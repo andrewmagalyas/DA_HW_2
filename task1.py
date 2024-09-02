@@ -14,9 +14,17 @@ from numpy import random
 arr1 = random.randint(100, size=(5))
 arr2 = random.randint(100, size=(5))
 
+print("Масив 1:")
+print(arr1)
+print("\nМасив 2:")
+print(arr2)
+print("\nСума елементів кожного масиву:")
 print(np.sum([arr1, arr2], axis=1))
+print("\nРізниця між елементами двох масивів:")
 print(np.subtract(arr1, arr2))
+print("\nПеремноження елементів двох масивів:")
 print(np.multiply(arr1, arr2))
+print("\nПідняття до ступеня:")
 print(np.power(arr1, arr2))
 
 
